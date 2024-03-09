@@ -1,4 +1,0 @@
-Thu 07 Mar 2024 22:01:20 INFO  [Config Info]	Model: SimpleHGN,	Task: node_classification,	Dataset: PPI_graph
-Thu 07 Mar 2024 22:01:20 INFO  [Dataset Process] Split train into train/valid with the ratio of 8:2 
-Thu 07 Mar 2024 22:01:20 INFO  [NC Specific] Modify the out_dim with num_classes
-Thu 07 Mar 2024 22:01:21 INFO  [Feature Transformation] Assign embedding as features, because hg.ndata is empty.
