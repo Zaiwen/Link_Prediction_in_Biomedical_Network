@@ -27,5 +27,12 @@ python main.py -m RGCN -d NDFRT_DDA -t link_prediction -g 0 --use_best_config
 ```
 we are using RGCN model to test the DDA prediction performance in the [NDFRT-DDA](data/NDFRT_DDA) dataset.
 
+## Node Classification
+_for example:_
+```
+python main.py -m RGCN -d HNE-PubMed -t node_classification -g 0 --use_best_config
+```
+We are using the RGCN model to predict which category a disease node in the PubMed dataset belongs to.
+
 ## Parameter Analysis
 If you want to set different hyper-parameters, manually modify [config.ini](code/openhgnn/config.ini). The best config will override the parameter in config.ini. 
