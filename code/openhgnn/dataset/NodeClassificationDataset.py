@@ -10,7 +10,7 @@ import scipy.sparse as sp
 from ogb.nodeproppred import DglNodePropPredDataset
 # from . import load_acm_raw
 from . import BaseDataset, register_dataset
-# from . import AcademicDataset, HGBDataset, OHGBDataset
+from . import AcademicDataset, HGBDataset, OHGBDataset
 # from .utils import sparse_mx_to_torch_sparse_tensor
 from ..utils import add_reverse_edges
 

@@ -1,6 +1,9 @@
 import importlib
 from dgl.data import DGLDataset
 from .base_dataset import BaseDataset
+from .academic_graph import AcademicDataset
+from .hgb_dataset import HGBDataset
+from .ohgb_dataset import OHGBDataset
 
 DATASET_REGISTRY = {}
 
